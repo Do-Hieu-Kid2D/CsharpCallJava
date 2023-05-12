@@ -83,5 +83,13 @@
   <ItemGroup>
     <None Include="Resources\dfd8dabcc3d01a8e43c1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\duycop.java">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\java.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
